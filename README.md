@@ -50,6 +50,10 @@ Run functional automation scripts for the app
 
 Run Performance scripts for UI using WDIO Devtools Service
 
+### `docker run -d --name sonarqube -e SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true -p 9000:9000 sonarqube:latest`
+
+Run sonarqube for static code analysis and security reports
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
