@@ -50,6 +50,11 @@ Run functional automation scripts for the app
 
 Run Performance scripts for UI using WDIO Devtools Service
 
+### Run Sonarqube
+
+Spin up sonar docker: `docker run -d --name sonarqube -e SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true -p 9000:9000 sonarqube:latest`
+Run sonar scan: sonar-scanner.bat -D"sonar.projectKey=renters" -D"sonar.sources=." -D"sonar.host.url=http://localhost:9000" -D"sonar.login=sqp_24d46d760330f5c7e6a1612dc4d1d40e22c7dcd3"
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
