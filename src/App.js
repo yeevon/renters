@@ -1,9 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
-import './App.css';
+import React from 'react'
+import './App.css'
 
-function App() {
+function App () {
   return (
     <div className="App">
       <div>
@@ -17,7 +15,7 @@ function App() {
         <label className='yourRent'>YADYADAYADAYADAYADAYADA</label>
       </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
